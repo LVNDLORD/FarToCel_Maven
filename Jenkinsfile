@@ -13,7 +13,7 @@
             stage('Checkout') {
                 steps {
                     // Checkout code from Git repository
-                    git branch:'main', url:'https://github.com/LVNDLORD/FarToCel_Maven'
+                    git branch:'main', url:'https://github.com/LVNDLORD/FarToCel_Maven.git'
                 }
             }
             stage('Build Docker Image') {
