@@ -1,3 +1,7 @@
+package org.example;
+
+public class wefw {
+
     pipeline {
         agent any
 
@@ -37,3 +41,4 @@
 
         }
     }
+}
